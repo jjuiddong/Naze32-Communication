@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{ba7bcba3-a5e3-495d-ac18-45a3873eba73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{6597ec1a-9dff-4372-9476-cd8dff9fffaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{247f94da-69f3-4ebe-8c75-b74801a2467c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Naze32UDP.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Naze32UDPDlg.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\autocs.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\naze32serial.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\protocol.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Serial.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\timer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoHandle.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoHeapAlloc.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoHModule.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ComPortCombo.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="enumser.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumDevices.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="launcher.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="packetqueue.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="udpclient.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="session.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="udpserver.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Naze32UDP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Naze32UDPDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\naze32serial.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Serial.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\timer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="ComPortCombo.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="EnumDevices.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="enumser.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="launcher.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="packetqueue.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="udpclient.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="session.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="udpserver.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Naze32UDP.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Naze32UDP.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Naze32UDP.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
