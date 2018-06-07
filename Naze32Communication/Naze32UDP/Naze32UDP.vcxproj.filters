@@ -68,19 +68,19 @@
     <ClInclude Include="EnumDevices.h">
       <Filter>UI</Filter>
     </ClInclude>
-    <ClInclude Include="launcher.h">
+    <ClInclude Include="..\Common\launcher.h">
       <Filter>Network</Filter>
     </ClInclude>
-    <ClInclude Include="packetqueue.h">
+    <ClInclude Include="..\Common\packetqueue.h">
       <Filter>Network</Filter>
     </ClInclude>
-    <ClInclude Include="udpclient.h">
+    <ClInclude Include="..\Common\session.h">
       <Filter>Network</Filter>
     </ClInclude>
-    <ClInclude Include="session.h">
+    <ClInclude Include="..\Common\udpclient.h">
       <Filter>Network</Filter>
     </ClInclude>
-    <ClInclude Include="udpserver.h">
+    <ClInclude Include="..\Common\udpserver.h">
       <Filter>Network</Filter>
     </ClInclude>
   </ItemGroup>
@@ -112,19 +112,19 @@
     <ClCompile Include="enumser.cpp">
       <Filter>UI</Filter>
     </ClCompile>
-    <ClCompile Include="launcher.cpp">
+    <ClCompile Include="..\Common\launcher.cpp">
       <Filter>Network</Filter>
     </ClCompile>
-    <ClCompile Include="packetqueue.cpp">
+    <ClCompile Include="..\Common\packetqueue.cpp">
       <Filter>Network</Filter>
     </ClCompile>
-    <ClCompile Include="udpclient.cpp">
+    <ClCompile Include="..\Common\session.cpp">
       <Filter>Network</Filter>
     </ClCompile>
-    <ClCompile Include="session.cpp">
+    <ClCompile Include="..\Common\udpclient.cpp">
       <Filter>Network</Filter>
     </ClCompile>
-    <ClCompile Include="udpserver.cpp">
+    <ClCompile Include="..\Common\udpserver.cpp">
       <Filter>Network</Filter>
     </ClCompile>
   </ItemGroup>
